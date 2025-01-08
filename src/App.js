@@ -1,16 +1,15 @@
 import "./App.css";
-import { useState } from "react";
+import Counter from "./components/Counter/Counter";
+import Pass from "./components/Pass/Pass";
+
 
 function App() {
-  const [state, setState] = useState(0);
+
 
   return (
     <div className="App">
-
-     <button onClick={()=> {if (state>0) setState(state-1) }   }></button> 
-      <span>{state}</span>
-
-      <button onClick={() => setState(state + 1)}>Add</button>
+<Counter/>
+<Pass/>
     </div>
   );
 }
