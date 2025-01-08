@@ -14,7 +14,7 @@ function App() {
     <div className="App">
 
      
-<Counter states={state} setState={setState}/>
+<Counter state={state} setState={setState}/>
 <Pass state= {state} />
     </div>
   );
