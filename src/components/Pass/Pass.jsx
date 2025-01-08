@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Pass = () => {
+const Pass = ({state}) => {
   return (
     <div>
 
-i m pass      
-    </div>
+
+<span>i show the count value{state}</span>
+    </div> 
   )
 }
 
