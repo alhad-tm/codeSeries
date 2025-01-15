@@ -10,10 +10,12 @@ const Counter = ({state,setState}) => {
       <span>{state}</span>
 
       <button onClick={() => setState(state + 1)}>Add</button>
+
+ 
       
     </div>
   )
 }
 
 export default Counter
- 
+  
